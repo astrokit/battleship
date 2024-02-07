@@ -1,6 +1,6 @@
 # Battleship
 
-Battleship is a classic two-player guessing game where opponents attempt to locate and sink each other's concealed fleet of ships. The bot takes on the role of the second player.
+Battleship is a classic two-player guessing game where opponents attempt to locate and sink each other's ships. The bot takes on the role of the second player.
 
 ## Requirements
 
@@ -33,9 +33,8 @@ overlap or touch each other.
 
 During gameplay, the board displays outcomes using symbols:
 
-* ≈ denotes hitting the water.
-* ╳ signifies a successful hit on an opponent's ship.
+* ≈ miss
+* ╳ hit
 
-Victory in the game is achieved by successfully sinking all the opponent's ships before 
-the opponent accomplishes the same feat. Strategic planning and precise targeting are 
-crucial to emerging victorious in this tactical naval battle.
+To win the game, the player has to sink all the opponent's ships before 
+the opponent does the same.
